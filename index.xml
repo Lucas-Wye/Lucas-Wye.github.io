@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZW YE</title>
+    <link>http://lucas-wye.github.io/</link>
+      <atom:link href="http://lucas-wye.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>ZW YE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jan 2021 09:56:53 +0800</lastBuildDate>
+    <image>
+      <url>http://lucas-wye.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>ZW YE</title>
+      <link>http://lucas-wye.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://lucas-wye.github.io/post/emacs/</link>
+      <pubDate>Fri, 22 Jan 2021 09:56:53 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/emacs/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;GNU Emacs, An extensible, customizable, free/libre text editor — and more.&lt;/li&gt;
+&lt;li&gt;At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cursor-movement&#34;&gt;Cursor movement&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-v&lt;/td&gt;
+&lt;td&gt;Move forward one screenful&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-v&lt;/td&gt;
+&lt;td&gt;Move backward one screenful&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-l&lt;/td&gt;
+&lt;td&gt;Clear screen and redisplay all the text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-n&lt;/td&gt;
+&lt;td&gt;Move next line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-p&lt;/td&gt;
+&lt;td&gt;Move previous line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-f&lt;/td&gt;
+&lt;td&gt;Move forward a character&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-b&lt;/td&gt;
+&lt;td&gt;Move backward a character&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-f&lt;/td&gt;
+&lt;td&gt;Move forward a word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-b&lt;/td&gt;
+&lt;td&gt;Move backward a word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-a&lt;/td&gt;
+&lt;td&gt;Move to beginning of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-e&lt;/td&gt;
+&lt;td&gt;Move to end of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-a&lt;/td&gt;
+&lt;td&gt;Move back to beginning of sentence&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-e&lt;/td&gt;
+&lt;td&gt;Move forward to end of sentence&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-&amp;lt;&lt;/td&gt;
+&lt;td&gt;Move to the beginning of file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-&amp;gt;&lt;/td&gt;
+&lt;td&gt;Move to the end of file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-u NUM&lt;/td&gt;
+&lt;td&gt;(Prefix) repeat NUM times&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-g&lt;/td&gt;
+&lt;td&gt;stop/cancel current execution&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;insert-and-delete&#34;&gt;Insert and Delete&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;delete the character just before the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-d&lt;/td&gt;
+&lt;td&gt;delete the next character after the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-DEL&lt;/td&gt;
+&lt;td&gt;kill the word immediately before the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-d&lt;/td&gt;
+&lt;td&gt;kill the next word after the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-k&lt;/td&gt;
+&lt;td&gt;kill from the cursor position to end of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-k&lt;/td&gt;
+&lt;td&gt;kill to the end of the current sentence&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-SPACE + [Move Cursor]&lt;/td&gt;
+&lt;td&gt;select text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-y&lt;/td&gt;
+&lt;td&gt;yank the more recent killed text back&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-y&lt;/td&gt;
+&lt;td&gt;replace the yanked text with the previous kill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-/, C-_, C-x u&lt;/td&gt;
+&lt;td&gt;Undo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;file-and-buffer&#34;&gt;File and Buffer&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x C-f&lt;/td&gt;
+&lt;td&gt;find a file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x C-s&lt;/td&gt;
+&lt;td&gt;save the file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x C-b&lt;/td&gt;
+&lt;td&gt;list buffers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x b&lt;/td&gt;
+&lt;td&gt;switch buffer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x s&lt;/td&gt;
+&lt;td&gt;save some buffers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x C-c&lt;/td&gt;
+&lt;td&gt;quit the Emacs session&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-z&lt;/td&gt;
+&lt;td&gt;exit Emacs temporarily&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M-x&lt;/td&gt;
+&lt;td&gt;prefix of some commands&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;search&#34;&gt;Search&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-s&lt;/td&gt;
+&lt;td&gt;search forward&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-r&lt;/td&gt;
+&lt;td&gt;search backward&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x 1&lt;/td&gt;
+&lt;td&gt;get rid of extra windows and go back to basic one-window editing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-u 0 C-l&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-h k C-f&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x 2&lt;/td&gt;
+&lt;td&gt;split the screen into two windows&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-M-v&lt;/td&gt;
+&lt;td&gt;scroll the bottom window&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-v o&lt;/td&gt;
+&lt;td&gt;move the cursor to the other window&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://lucas-wye.github.io/post/cli_net_work/</link>
+      <pubDate>Sat, 30 May 2020 10:50:03 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/cli_net_work/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;A computer network is a digital telecommunications network which allows nodes to share resources. In computer
+networks, computing devices exchange data with each other using connections (data links) between nodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;commands&#34;&gt;Commands&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ping 
+domainname
+hostname
+
+cat /etc/hosts # ip address
+sudo systemctl restart NetworkManager # hosts生效
+
+cat /etc/resolv.conf # dns server
+ip # TCP/IP interface configuration and routing utility
+ifconfig # configure a network interface
+route # show / manipulate the IP routing table
+netstat # show network status (network connections, routing tables, interface statistics, masquerade connections, and multicast memberships)
+
+sudo ping ip地址 -i 0.01 -s 65500 # 每0.01秒给ip地址对应的机器发送65500字节的数据包
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;useful-remote-connection-utilities&#34;&gt;Useful Remote Connection Utilities&lt;/h2&gt;
+&lt;p&gt;• &lt;strong&gt;ftp&lt;/strong&gt; [options] host, transfer file(s) using file transfer protocol&lt;br&gt;
+• &lt;strong&gt;telnet&lt;/strong&gt; [host [port]], communicate with host using telnet protocol&lt;br&gt;
+• &lt;strong&gt;ssh&lt;/strong&gt;, remote login or remote execution using secure shell&lt;br&gt;
+• &lt;strong&gt;rcp/scp&lt;/strong&gt;, remotely copy files from this machine to another machine&lt;br&gt;
+• &lt;strong&gt;rsync&lt;/strong&gt;, smartly copy files over network after checking contents&lt;br&gt;
+• &lt;strong&gt;curl&lt;/strong&gt;, transfer a URL via HTTP, FTP, IMAP, etc&lt;br&gt;
+• &lt;strong&gt;wget&lt;/strong&gt;, download files over the Internet via HTTP or FTP&lt;br&gt;
+• &lt;strong&gt;lynx/links&lt;/strong&gt;, text-mode (mini) web browser&lt;/p&gt;
+&lt;h3 id=&#34;aria2&#34;&gt;aria2&lt;/h3&gt;
+&lt;p&gt;(1)Install&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Ubuntu
+sudo apt-get install aria2
+# CentOS
+yum install aria2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(2)Usage&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 在命令后附加地址即可
+aria2c &amp;quot;url&amp;quot;
+# 分段下载，利用 aria2 的分段下载功能可以加快文件的下载速度
+# 使用 2 个连接来下载该文件，s的参数值介于 1~5 之间
+aria2c -s 2 &amp;quot;url&amp;quot;  
+
+# 断点续传，在命令中使用 c 选项可以断点续传文件
+aria2c -c &amp;quot;url&amp;quot; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;client URL tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(1)不带有任何参数时，发出 GET 请求&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl https://www.example.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(2)&lt;code&gt;-A&lt;/code&gt;指定User-Agent，默认用户代理字符串是curl/[version]&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl -A &#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36&#39; https://google.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(3)&lt;code&gt;-b&lt;/code&gt; 参数用来向服务器发送 Cookie&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 生成一个标头Cookie: foo=bar，向服务器发送一个名为foo、值为bar的 Cookie
+curl -b &#39;foo=bar&#39; https://google.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(4)&lt;code&gt;-d&lt;/code&gt; 参数用于发送 POST 请求的数据体&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl -d&#39;login=emma＆password=123&#39;-X POST https://google.com/login
+# `--data-urlencode` 等同于 `-d` 
+# 发送 POST 请求的数据体，区别在于会自动将发送的数据进行 URL 编码
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(5)&lt;code&gt;-G&lt;/code&gt; 参数用来构造 URL 的查询字符串&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 实际请求的 URL 为https://google.com/search?q=kitties&amp;amp;count=20
+curl -G -d &#39;q=kitties&#39; -d &#39;count=20&#39; https://google.com/search
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(6)&lt;code&gt;-H&lt;/code&gt; 参数添加 HTTP 请求的标头&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl -H &#39;Accept-Language: en-US&#39; https://google.com
+curl -d &#39;{&amp;quot;login&amp;quot;: &amp;quot;emma&amp;quot;, &amp;quot;pass&amp;quot;: &amp;quot;123&amp;quot;}&#39; -H &#39;Content-Type: application/json&#39; https://google.com/login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(7) &lt;code&gt;-i&lt;/code&gt; 参数打印出服务器回应的 HTTP 标头&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 先输出服务器回应的标头，然后空一行，再输出网页的源码
+curl -i https://www.example.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(8)&lt;code&gt;-o&lt;/code&gt; 参数将服务器的回应保存成文件，等同于wget命令&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl -o example.html https://www.example.com
+# `-O` 参数将服务器回应保存成文件，并将 URL 的最后部分当作文件名。
+curl -O https://www.example.com/foo/bar.html
+# 通过添加 `-C` 继续对该文件进行下载，已经下载过的文件不会被重新下载
+curl -C -O http://www.gnu.org/software/gettext/manual/gettext.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;terminal设置代理&#34;&gt;terminal设置代理&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# MacOS &amp;amp; Linux
+export http_proxy=http://127.0.0.1:PORT
+export https_proxy=http://127.0.0.1:PORT
+# Windows
+set https_proxy=&amp;quot;http://127.0.0.1:PORT&amp;quot;
+set http_proxy=&amp;quot;http://127.0.0.1:PORT&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;windows-vpn连接&#34;&gt;Windows VPN连接&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;rasdial VPN_NAME USERNAME PASSWORD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.qingtingip.com/h_189554.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nmcli用法&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to use search engine</title>
+      <link>http://lucas-wye.github.io/post/howtosearch/</link>
+      <pubDate>Wed, 06 May 2020 12:15:17 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/howtosearch/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Search engines are systems that enable users to search for documents on the World Wide Web.&lt;/li&gt;
+&lt;li&gt;Popular examples include Yahoo!Search, Bing, Google, and Ask.com.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;特殊符号&#34;&gt;特殊符号&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;双引号&lt;/strong&gt;：把搜索词放在双引号中，代表&lt;strong&gt;完全匹配搜索&lt;/strong&gt;（顺序也必须完全匹配）&lt;/p&gt;
+&lt;p&gt;eg: &amp;ldquo;浙江大学SCDA&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;减号&lt;/strong&gt;：搜索不包含减号后面的词的页面，使用这个指令时减号前面必须是&lt;strong&gt;空格&lt;/strong&gt;，减号后面没有空格，紧跟着需要排除的词&lt;/p&gt;
+&lt;p&gt;eg: 浙江大学 -学院&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;星号&lt;/strong&gt;：通配符&lt;/p&gt;
+&lt;p&gt;eg: 浙*大学&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;inurl&lt;/strong&gt;：查找网址中包含指定字符的页面&lt;/p&gt;
+&lt;p&gt;eg: inurl:nice&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;inanchor&lt;/strong&gt;：查找导入链接锚文字中包含搜索词的页面&lt;/p&gt;
+&lt;p&gt;eg: inanchor:点击这里&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;intitle&lt;/strong&gt;: 查找页面title 中包含关键词的页面&lt;/p&gt;
+&lt;p&gt;eg: intitle: 查老师&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;filetype&lt;/strong&gt;：查找特定格式文件&lt;/p&gt;
+&lt;p&gt;eg: filetype:pdf SCDA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;site&lt;/strong&gt;: 搜索某个域名下的所有子路径&lt;/p&gt;
+&lt;p&gt;eg: site: &lt;a href=&#34;http://www.zju.edu.cn&#34;&gt;www.zju.edu.cn&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;快照功能&#34;&gt;快照功能&lt;/h2&gt;
+&lt;p&gt;搜索引擎在收录网页时，对网页进行备份，存在自己的服务器缓存里，由于网页快照是存储在搜索引擎服务器中，所以查看网页快照的速度往往比直接访问网页要快&lt;/p&gt;
+&lt;p&gt;eg: 高斯分布 site:zh.wikipedia.org&lt;/p&gt;
+&lt;h2 id=&#34;特殊搜索&#34;&gt;特殊搜索&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;中文文献&lt;br&gt;
+
+&lt;a href=&#34;http://xueshu.baidu.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;百度学术&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://cn.bing.com/academic?mkt=zh-CN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bing学术&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://scholar.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;谷歌学术&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;英文文献&lt;br&gt;
+
+&lt;a href=&#34;https://cn.bing.com/academic?mkt=zh-CN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bing学术&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://scholar.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;谷歌学术&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://sci-hub.tw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sci-hub&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;http://ieeexplore.ieee.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;编程相关&lt;br&gt;
+
+&lt;a href=&#34;http://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://medium.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;medium&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;http://stackoverflow.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;深度搜索&#34;&gt;深度搜索&lt;/h2&gt;
+&lt;p&gt;特殊的搜索工具可以搜索&lt;strong&gt;深网&lt;/strong&gt;的内容&lt;/p&gt;
+&lt;p&gt;微信搜索 &lt;a href=&#34;https://weixin.sogou.com&#34;&gt;https://weixin.sogou.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Archive搜索引擎  &lt;a href=&#34;http://archive.org&#34;&gt;http://archive.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wikihow 
+&lt;a href=&#34;https://zh.wikihow.com/%e6%90%9c%e7%b4%a2%e6%b7%b1%e7%bd%91&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zh.wikihow.com/搜索深网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;more &lt;a href=&#34;https://www.freebuf.com/news/137844.html&#34;&gt;https://www.freebuf.com/news/137844.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/Lucas-Wye/Share/blob/master/search.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;search.pdf&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://www.zhihu.com/question/19847393&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;搜索引擎有哪些常用技巧&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/33188000&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;深网搜索引擎&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Matlab</title>
+      <link>http://lucas-wye.github.io/post/matlab/</link>
+      <pubDate>Wed, 06 May 2020 12:12:38 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/matlab/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://github.com/Lucas-Wye/Share/blob/master/matlab_share.pptx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Ask Question</title>
+      <link>http://lucas-wye.github.io/post/ask/</link>
+      <pubDate>Mon, 27 Apr 2020 16:16:14 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/ask/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://www.catb.org/%7Eesr/faqs/smart-questions.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>http://lucas-wye.github.io/post/latex/</link>
+      <pubDate>Mon, 27 Apr 2020 16:12:48 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/latex/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;LaTeX（音译“拉泰赫”）是一种基于ΤΕΧ的排版系统，由美国计算机学家莱斯利·兰伯特（Leslie Lamport）在20世纪80年代初期开发。
+利用这种格式，即使使用者没有排版和程序设计的知识也可以充分发挥由TeX所提供的强大功能，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。&lt;/li&gt;
+&lt;li&gt;对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学类文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;从
+&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;清华镜像源&lt;/a&gt;下载对应操作系统的Texlive软件包&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 安装
+sudo ./install-tl   
+# 设置环境变量
+# LaTeX
+export TEX_HOME=/usr/local/texlive/2019
+export PATH=$PATH:$TEX_HOME/bin/x86_64-linux
+export INFOPATH=$INFOPATH:$TEX_HOME/texmf-dist/doc/info
+export MANPATH=$MANPATH:$TEX_HOME/texmf-dist/doc/man
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;安装-windows-字体&#34;&gt;安装 Windows 字体&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 创建 win 下字体专用文件夹
+sudo mkdir /usr/share/fonts/winfonts
+
+# 复制windows上的字体到/usr
+sudo cp your_winfonts_dir /usr/share/fonts/winfonts 
+
+# 进入字体文件夹
+cd /usr/share/fonts/winfonts
+
+# 修改访问权限
+sudo chmod 744 *
+
+# 回到主目录
+cd ~
+
+# 更新字体信息
+sudo mkfontscale
+sudo mkfontdir
+sudo fc-cache -f -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://github.com/Lucas-Wye/Latex_template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX模板&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;http://latexstudio.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX开源小屋&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://github.com/Lucas-Wye/Share/tree/master/LaTeX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX Introduction&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://liam.page/texlive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TeX Live下载及安装说明&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://liam.page/2014/09/08/latex-introduction/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;一份其实很短的 LaTeX 入门文档&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://lucas-wye.github.io/post/golang/</link>
+      <pubDate>Mon, 27 Apr 2020 16:08:27 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/golang/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Go 是一个开源的编程语言，它能让构造简单、可靠且高效的软件变得容易。&lt;/li&gt;
+&lt;li&gt;Go是从2007年末由Robert Griesemer, Rob Pike, Ken Thompson主持开发，后来还加入了Ian Lance Taylor, Russ Cox等人，并最终于2009年11月开源，在2012年早些时候发布了Go 1稳定版本。&lt;/li&gt;
+&lt;li&gt;现在Go的开发已经是完全开放的，并且拥有一个活跃的社区。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;从
+&lt;a href=&#34;https://golang.google.cn/dl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt;下载对应平台的编译器&lt;/p&gt;
+&lt;h2 id=&#34;设置环境变量&#34;&gt;设置环境变量&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Golang
+export GO=... # 安装位置
+export PATH=$PATH:$GO/bin
+
+export GOPATH=... # 指定一个本地位置
+export PATH=$PATH:$GOPATH/bin
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.runoob.com/go/go-tutorial.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;go教程&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://www.w3cschool.cn/yqbmht/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;go web教程&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://lucas-wye.github.io/post/python/</link>
+      <pubDate>Mon, 27 Apr 2020 16:05:43 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/python/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。&lt;/li&gt;
+&lt;li&gt;Python 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。 像 Perl 语言一样, Python 源代码同样遵循 GPL(GNU General Public License) 协议。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;从
+&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;清华镜像源&lt;/a&gt;下载对应平台的 anaconda/miniconda 安装即可。&lt;/p&gt;
+&lt;h2 id=&#34;conda创建python虚拟环境&#34;&gt;conda创建python虚拟环境&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 查看当前存在哪些虚拟环境                                
+conda env list
+## or
+conda info -e 
+# 创建虚拟环境
+conda create -n your_env_name python=X.X  # 版本选择：2.7、3.6等
+# 激活环境
+conda activate your_env_name
+# 关闭虚拟环境
+conda deactivate
+# 安装package到your_env_name
+conda install -n your_env_name package_name
+# 删除环境中的某个包
+conda remove --name your_env_name package_name
+# 删除虚拟环境
+conda remove -n your_env_name --all
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;常用包安装方法&#34;&gt;常用包安装方法&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# tensorflow
+conda install tensorflow
+# pytorch(CPU)
+conda install pytorch torchvision cpuonly -c pytorch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;conda导出环境依赖&#34;&gt;conda导出环境依赖&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;conda list -e &amp;gt; requirements.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;jupyter-notebook&#34;&gt;Jupyter notebook&lt;/h3&gt;
+&lt;p&gt;访问远程服务器的notebook配置：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 生成一个 notebook 配置文件
+jupyter notebook --generate-config
+# 生成密码
+jupyter notebook password
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改配置文件 ~/.jupyter/jupyter_notebook_config.py&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;c.NotebookApp.ip = &#39;*&#39; # 允许任何IP访问
+c.NotebookApp.password = u&#39;sha:...&#39; # 密码的哈希值
+c.NotebookApp.open_browser = False 
+c.NotebookApp.port = 8888 # 自行指定一个端口
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;pip&#34;&gt;pip&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 导入依赖包                                
+pip install -r requirements.txt 
+# 只导出项目依赖包
+pip install pipreqs
+pipreqs ./
+# 导出依赖包
+pip freeze &amp;gt; requirements.txt
+# 离线下载
+pip download -d [DIR] -r requirements.txt 
+# 离线安装
+pip install --no-index --find-links=[DIR] -r requirements.txt  
+# 更改镜像源
+echo &amp;quot;[global]\nindex-url = http://mirrors.aliyun.com/pypi/simple/\n[install]\ntrusted-host = mirrors.aliyun.com&amp;quot; &amp;gt; ~/.pip/pip.conf 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://nbviewer.jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ipynb文件在线查看工具&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tmux</title>
+      <link>http://lucas-wye.github.io/post/tmux/</link>
+      <pubDate>Mon, 27 Apr 2020 16:04:15 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/tmux/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Tmux是一个优秀的终端复用软件，类似GNU Screen，但来自于OpenBSD，采用BSD授权&lt;/li&gt;
+&lt;li&gt;使用它最直观的好处就是，通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Ubuntu
+sudo apt-get install tmux
+# MacOS
+brew install tmux
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;基本操作&#34;&gt;基本操作&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 新建会话                                
+tmux # 新建一个无名称的会话
+tmux new -s demo # 新建一个名称为demo的会话
+# 进入之前会话
+tmux a # 默认进入第一个会话
+tmux a -t demo # 进入到名称为demo的会话
+# 离开会话
+[CTRL B] d
+# 关闭会话
+tmux kill-session -t demo # 关闭demo会话
+tmux kill-server # 关闭服务器，所有的会话都将关闭
+# 查看会话
+tmux list-session # 查看所有会话
+tmux ls # 查看所有会话，提倡使用简写形式
+
+# 滚屏/cope mode
+[CTRL B] [  
+# 设置滚屏vi快捷键
+echo &amp;quot;setw -g mode-keys vi&amp;quot; &amp;gt;  ~/.tmux.conf
+tmux source-file ~/.tmux.conf
+# copy
+[CTRL B] [  -&amp;gt; [Space] -&amp;gt; Select -&amp;gt; [Enter]
+# paste
+[CTRL B] ]
+
+# 切换pane
+[CTRL B] Up|Down|Left|Right 
+# 垂直分屏
+[CTRL B] % 
+# 水平分屏
+[CTRL B] &amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://louiszhai.github.io/2017/09/30/tmux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tmux使用手册&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://lucas-wye.github.io/post/java/</link>
+      <pubDate>Mon, 27 Apr 2020 15:59:14 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/java/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Java 是由Sun Microsystems公司于1995年5月推出的高级程序设计语言。 Java可运行于多个平台，如Windows, Mac OS，及其他多种UNIX版本的系统。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.oracle.com/technetwork/java/javase/downloads/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JDK&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IntelliJ IDEA&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 配置环境变量                                
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_144  # 这里换成自己的jdk目录
+export JRE_HOME=${JAVA_HOME}/jre  
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
+export PATH=${JAVA_HOME}/bin:$PATH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;usage-of-adbandroid-debug&#34;&gt;Usage of adb(Android Debug)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 卸载系统软件
+adb shell
+pm list package
+pm uninstall -k --user 0 package_name
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vi Editor</title>
+      <link>http://lucas-wye.github.io/post/vi_vim/</link>
+      <pubDate>Mon, 27 Apr 2020 15:36:39 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/vi_vim/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;所有的 Unix Like 系统都会内建 Vi 文书编辑器，其他的文书编辑器则不一定会存在。但是目前我们使用比较多的是 Vim 编辑器。&lt;/li&gt;
+&lt;li&gt;Vim 具有程序编辑的能力，可以主动的以字体颜色辨别语法的正确性，方便程序设计。&lt;/li&gt;
+&lt;li&gt;Vim是从 Vi 发展出来的一个文本编辑器。代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。简单的来说， Vi 是老式的字处理器，不过功能已经很齐全了，但是还是有可以进步的地方。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;file-operation&#34;&gt;File Operation&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;:wq&lt;/td&gt;
+&lt;td&gt;存盘退出&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:q!&lt;/td&gt;
+&lt;td&gt;退出不保存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:saveas [path/to/file]&lt;/td&gt;
+&lt;td&gt;另存为 [path/to/file]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:qa!&lt;/td&gt;
+&lt;td&gt;强行退出所有的正在编辑的文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:bn 和 :bp&lt;/td&gt;
+&lt;td&gt;切换下一个或上一个文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:w !sudo tee %&lt;/td&gt;
+&lt;td&gt;以sudo保存正在编辑的文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:n&lt;/td&gt;
+&lt;td&gt;move to next file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:rew&lt;/td&gt;
+&lt;td&gt;回到第一个文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:edit [Filename]&lt;/td&gt;
+&lt;td&gt;打开新文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;cursor-movement&#34;&gt;Cursor movement&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;hjkl&lt;/td&gt;
+&lt;td&gt;move&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/[PATTERN]&lt;/td&gt;
+&lt;td&gt;搜索&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;?[PATTERN]&lt;/td&gt;
+&lt;td&gt;搜索&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/\&amp;lt;[PATTERN]\&amp;gt;&lt;/td&gt;
+&lt;td&gt;精确匹配搜索&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%&lt;/td&gt;
+&lt;td&gt;匹配括号移动&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f&lt;/td&gt;
+&lt;td&gt;搜索并移动到某个字符前&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;t&lt;/td&gt;
+&lt;td&gt;到某个字符前的第一个字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:N&lt;/td&gt;
+&lt;td&gt;到第N行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gg&lt;/td&gt;
+&lt;td&gt;到第一行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;G&lt;/td&gt;
+&lt;td&gt;到最后一行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[n]G&lt;/td&gt;
+&lt;td&gt;go to last line or line [n]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;w/W&lt;/td&gt;
+&lt;td&gt;到下一个单词的开头&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;e/E&lt;/td&gt;
+&lt;td&gt;到下一个单词的结尾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;b&lt;/td&gt;
+&lt;td&gt;到上一个单词的开头&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;beginning of current line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$&lt;/td&gt;
+&lt;td&gt;end of current line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;^&lt;/td&gt;
+&lt;td&gt;beginning of text on current line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] F/B&lt;/td&gt;
+&lt;td&gt;move screen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] D/U&lt;/td&gt;
+&lt;td&gt;move half screen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zz&lt;/td&gt;
+&lt;td&gt;将当前行放置于屏幕中间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zt&lt;/td&gt;
+&lt;td&gt;将当前行放置于屏幕顶端&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zb&lt;/td&gt;
+&lt;td&gt;将当前行放置于屏幕底端&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;inserting-text&#34;&gt;Inserting text&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;i&lt;/td&gt;
+&lt;td&gt;前插入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;后插入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;I&lt;/td&gt;
+&lt;td&gt;insert text at beginning of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;append text at end of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o&lt;/td&gt;
+&lt;td&gt;在当前行后插入一个新行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;在当前行前插入一个新行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;deleting-text&#34;&gt;Deleting text&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;d&lt;/td&gt;
+&lt;td&gt;删除&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;删除当前行光标后所有内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;x&lt;/td&gt;
+&lt;td&gt;删当前光标的字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;删当前光标前的字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;changing-commands&#34;&gt;Changing commands&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;u&lt;/td&gt;
+&lt;td&gt;undo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] r&lt;/td&gt;
+&lt;td&gt;redo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;td&gt;repeat last operation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;p&lt;/td&gt;
+&lt;td&gt;后粘贴&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;P&lt;/td&gt;
+&lt;td&gt;前粘贴&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;y&lt;/td&gt;
+&lt;td&gt;复制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;s/S&lt;/td&gt;
+&lt;td&gt;substitute&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;~&lt;/td&gt;
+&lt;td&gt;change case of character&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;J&lt;/td&gt;
+&lt;td&gt;join current line and next line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;split-windows&#34;&gt;Split windows&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;:split/vsplit&lt;/td&gt;
+&lt;td&gt;创建分屏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] w + 方向&lt;/td&gt;
+&lt;td&gt;切换分屏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;command-line-mode&#34;&gt;Command line mode&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;:![cmd]&lt;/td&gt;
+&lt;td&gt;暂时退出命令行执行cmd&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:set all&lt;/td&gt;
+&lt;td&gt;display all option settings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:[Addr/%]s/old expr/new string/[g]&lt;/td&gt;
+&lt;td&gt;替换当前行/Addr/%(文件内所有)的old expr为new string,[g]全局替换，否则只替换第一个 ｜&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] p/n&lt;/td&gt;
+&lt;td&gt;自动补齐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] +/-&lt;/td&gt;
+&lt;td&gt;改变尺寸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v&lt;/td&gt;
+&lt;td&gt;visual模式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;v-line模式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[CTRL] v&lt;/td&gt;
+&lt;td&gt;v-block模式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:normal [Command]&lt;/td&gt;
+&lt;td&gt;可视化模式下执行命令&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;qa&lt;/td&gt;
+&lt;td&gt;录制宏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ci + &amp;quot;&lt;/td&gt;
+&lt;td&gt;删除引号之中的内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tabe&lt;/td&gt;
+&lt;td&gt;打开新的标签页&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;+/-tabnext&lt;/td&gt;
+&lt;td&gt;切换标签页&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;regular-expression&#34;&gt;Regular expression&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;match any single character at the indicated position&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;match any string of zero or more characters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[abc&amp;hellip;]&lt;/td&gt;
+&lt;td&gt;match any of the enclosed characters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[a-e]&lt;/td&gt;
+&lt;td&gt;match any characters in the range a,b,c,d,e&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[!def]&lt;/td&gt;
+&lt;td&gt;match any characters not one of the enclosed characters, sh/bash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;{abc,bcd,cde}&lt;/td&gt;
+&lt;td&gt;match any set of characters separated by comma (,) (no spaces), bash/csh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;~&lt;/td&gt;
+&lt;td&gt;home directory of the current user, bash/csh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;~ user&lt;/td&gt;
+&lt;td&gt;home directory of the specified user, bash/csh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;td&gt;match any single character except newline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[^abc]&lt;/td&gt;
+&lt;td&gt;match any character NOT in the enclosed set&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;^exp&lt;/td&gt;
+&lt;td&gt;regular expression must start at the beginning of the line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;exp$&lt;/td&gt;
+&lt;td&gt;regular expression must end at the end of the line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\&lt;/td&gt;
+&lt;td&gt;treat the next character literally 转义字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;xy*z&lt;/td&gt;
+&lt;td&gt;xy开头，z结尾的字符串&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;plug&#34;&gt;Plug&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/vim-plug&#34;&gt;https://github.com/junegunn/vim-plug&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vimrc&#34;&gt;.vimrc&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/Lucas-Wye/rc/blob/master/sys/vimrc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vimrc&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;neovimhttpsneovimio&#34;&gt;
+&lt;a href=&#34;https://neovim.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeoVim&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;使用Vim配置文件&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ln -s ~/.vim ~/.config/nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.runoob.com/linux/linux-vim.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vi/Vim教程&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://coolshell.cn/articles/5426.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;简明 VIM 练级攻略&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kali</title>
+      <link>http://lucas-wye.github.io/post/kali/</link>
+      <pubDate>Wed, 16 Oct 2019 16:02:51 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/kali/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Kali Linux是基于Debian的Linux发行版， 设计用于数字取证操作系统。由Offensive Security Ltd维护和资助。最先由Offensive Security的Mati Aharoni和Devon Kearns通过重写BackTrack来完成，BackTrack是他们之前写的用于取证的Linux发行版。&lt;/li&gt;
+&lt;li&gt;Kali Linux预装了许多渗透测试软件，包括nmap 、Wireshark 、John the Ripper，以及Aircrack-ng；用户可通过硬盘、live CD或live USB运行Kali Linux。Kali Linux既有32位和64位的镜像。可用于x86 指令集。同时还有基于ARM架构的镜像，可用于树莓派和三星的ARM Chromebook。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 从Docker安装
+docker pull kalilinux/kali-linux-docker
+# 运行
+docker run -t -i kalilinux/kali-linux-docker /bin/bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.kali.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kali官网&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://lucas-wye.github.io/post/docker/</link>
+      <pubDate>Wed, 16 Oct 2019 16:00:33 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/docker/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Ubuntu                                
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+# 建立docker组
+sudo groupadd docker
+# 将当前用户加入docker组
+sudo usermod -aG docker $USER
+
+# 卸载本机所有的镜像、容器、卷以及配置文件
+sudo rm -rf /var/lib/docker
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
+&lt;p&gt;Pull&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;docker pull [user name]/[repo name]:[tag name]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;-i 以交互模式运行容器，通常与 -t 同时使用&lt;/li&gt;
+&lt;li&gt;-t 为容器重新分配一个伪输入终端，通常与 -i 同时使用&lt;/li&gt;
+&lt;li&gt;-v 绑定一个卷，格式为：本机绑定目录:容器内部绑定目录&lt;/li&gt;
+&lt;li&gt;-d 后台运行容器，并返回容器ID&lt;/li&gt;
+&lt;li&gt;-P 随机端口映射，容器内部端口随机映射到主机的高端口&lt;/li&gt;
+&lt;li&gt;-p 指定端口映射，格式为：主机(宿主)端口:容器端口&lt;/li&gt;
+&lt;li&gt;-a 指定标准输入输出内容类型，可选 STDIN/STDOUT/STDERR 三项&lt;/li&gt;
+&lt;li&gt;&amp;ndash;name 对所新建容器进行命名&lt;/li&gt;
+&lt;li&gt;&amp;ndash;rm 容器终止后，自动删除容器文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Others&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 列出容器
+docker container ls -a 
+# 查看容器ID
+docker ps -a
+# 重新启动已被终止的指定容器
+docker start [CONTAINER ID]
+# 终止容器
+docker stop [CONTAINER NAME/ID]
+# 若是利用 -it 在容器内部进行操作，仅需输入 exit 即可
+# 删除容器
+docker kill [CONTAINER NAME/ID]
+# 将所有容器删除
+docker container prune
+# 列出镜像
+docker images
+# 重命名镜像
+docker tag [old REPOSITORY]:[old TAG] or [IMAGE ID] [new REPOSITORY]:[new TAG]
+# 删除镜像
+docker rmi [IMAGE]
+# 存出镜像
+docker save -o [xx.tar] [REPOSITORY]:[TAG]
+# 载入镜像
+sudo docker load --input [镜像文件]
+# 更新镜像
+docker commit [OPTIONS] [IMAGE ID] [new REPOSITORY]:[new TAG]
+# -m: 提交的描述信息
+# -a: 指定镜像作者
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.runoob.com/docker/docker-container-usage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker教程&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://wiki.jikexueyuan.com/project/docker-technology-and-combat/save_load.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker学习笔记&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GCC</title>
+      <link>http://lucas-wye.github.io/post/gcc/</link>
+      <pubDate>Wed, 16 Oct 2019 15:57:07 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/gcc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;GCC编译器也称为Linux GCC命令，它有很多选项。GCC编译器是Linux下最常用的编译器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# MacOS安装Xcode工具链                                
+xcode-select --install
+# Ubuntu
+sudo apt install gcc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;gcc -c filename.c # compile only, produce .o
+gcc -g # compile for debugging
+gcc -o filename.o # 
+gcc -O 1,2,3,4,s,fast # for optimization level
+gcc -Ipathname
+gcc -Dsymbol # define preprocessor symbol
+gcc -Ldirectory # add directory to the library search path
+gcc -lxyz # link with library libxyz.a or libxyz.so
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;gdb&#34;&gt;gdb&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;gdb BINARY_FILE
+list
+br 8 # breakpoint in line 8
+run
+print value 
+next
+where
+help
+quit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;make&#34;&gt;make&lt;/h2&gt;
+&lt;p&gt;(1)Predefined Macros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AS - assembler (as)&lt;/li&gt;
+&lt;li&gt;CC - C compiler command (cc)&lt;/li&gt;
+&lt;li&gt;FC - Fortran compiler command (fc)&lt;/li&gt;
+&lt;li&gt;CPP - C++ preprocessing command ($(CC) -E)&lt;/li&gt;
+&lt;li&gt;CXX - C++ compiler command (g++)&lt;/li&gt;
+&lt;li&gt;CFLAGS - C compiler option flags (e.g. -g)&lt;/li&gt;
+&lt;li&gt;FFLAGS - Fortran compiler option flags (e.g. -g)&lt;/li&gt;
+&lt;li&gt;LDFLAGS - Linking option flags (e.g. –L /usr/share/lib)&lt;/li&gt;
+&lt;li&gt;LDLIBS – Linking libraries (e.g. -lm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(2)Special Internal Macros&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$* # The basename of the current target
+$&amp;lt; # The name of a dependency file, as we see on last page
+$@ # The name of the current target.
+$? # The list of dependencies that are newer than the target.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://blog.csdn.net/gatieme/article/details/51671430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;more of gdb&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://github.com/Lucas-Wye/Makefile-Templates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Makefile example&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://lucas-wye.github.io/post/git/</link>
+      <pubDate>Wed, 16 Oct 2019 15:30:21 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/git/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;/li&gt;
+&lt;li&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;/li&gt;
+&lt;li&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;创建版本库&#34;&gt;创建版本库&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git init
+git clone URL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;修改和提交&#34;&gt;修改和提交&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git status
+git diff FILE_NAME
+git add FILE_NAME
+git mv OLD_NMAE NEW_NAME
+git rm FILE_NAME
+git rm --cached FILE_NAME # 停止跟踪文件但不删除
+git commit -m YOUR_COMMENT
+git commit --amend
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;查看提交历史&#34;&gt;查看提交历史&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git log
+git reflog # 所有分支信息
+git log -p FILE_NAME # 查看指定文件的提交历史
+git blame FILE_NAME # 以列表方式查看指定文件的提交历史
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;撤销&#34;&gt;撤销&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git reset HEAD
+git reset --hard HEAD
+git checkout HEAD FILE_NAME
+git revert COMMIT_ID
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;分支与标签&#34;&gt;分支与标签&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git branch
+git checkout BRANCH/TAG
+git branch NEW_BRANCH
+git branch -d BRANCH
+git tag # 列出所有的本地标签
+git tag TAG_NAME # 基于最新的提交创建标签
+git tag -d TAG_NAME
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;合并与衍合&#34;&gt;合并与衍合&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git merge BRANCH
+git rebase BRANCH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;远程操作&#34;&gt;远程操作&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git remote -v
+git remote show REMOTE # 查看指定远程版本库信息
+git remote add REMOTE URL
+
+git fetch REMOTE
+git pull REMOTE BRANCH
+git push REMOTE BRANCH
+git push REMOTE:BRANCH:TAG
+git push --tags
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;垃圾回收&#34;&gt;垃圾回收&lt;/h3&gt;
+&lt;p&gt;Git仓库越来越臃肿，大多数版本控制系统存储的是一组初始文件， 以及每个文件随着时间的演进而逐步积累起来的差异；  而Git则会把文件的每一个差异化版本都记录在案。
+这意味着，即使你只改动了某个文件的一行内容， Git也会生成一个全新的对象来存储新的文件内容。&lt;/p&gt;
+&lt;p&gt;对象碎片：如果你改动了一个很大的文件， git会为这个文件生成了一个很大的Blob对象&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd .git
+du -ah  # 查看文件大小
+git gc --prune=now # 垃圾回收
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;实际上，并不需要手动调用 gc 命令。每当碎片对象过多，或者你向远端服务器发起推送的时候，git 就会自动执行一次打包过程。&lt;/p&gt;
+&lt;h3 id=&#34;submodule&#34;&gt;submodule&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 添加子仓库
+git submodule add &amp;lt;仓库地址&amp;gt; &amp;lt;本地路径&amp;gt;
+# 检出子仓库
+git submodule init # 初始化本地配置文件
+git submodule update # 检出父仓库列出的commit 
+## 或者
+git submodule update --init --recursive
+# 递归克隆
+git clone &amp;lt;仓库地址&amp;gt; --recursive
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;合并多个commit&#34;&gt;合并多个commit&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;commit THIRD_COMMIT_ID
+	add third commit
+
+commit SECOND_COMMIT_ID
+	add second_commit
+
+commit FIRST_COMMIT_ID
+	add third commit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;首先有3个commit，需要将前两个commit合成一个&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git rebase -i FIRST_COMMIT_ID
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;出现如下界面：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pick SECOND_COMMIT_ID add second_commit
+pick THIRD_COMMIT_ID add third commit
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改成：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pick SECOND_COMMIT_ID add second_commit
+squash THIRD_COMMIT_ID add third commit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;DONE.&lt;/p&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.runoob.com/git/git-tutorial.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git教程&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://lucas-wye.github.io/post/linux/</link>
+      <pubDate>Wed, 16 Oct 2019 15:19:22 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/linux/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于POSIX和Unix的多用户、多任务、支持多线程和多CPU的操作系统。它能运行主要的Unix工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;control-key&#34;&gt;Control Key&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;[CTRL]U           cancel line
+[CTRL]C           cancel operation
+[CTRL]S           pause display
+[CTRL]Q           restart display
+[CTRL]A           光标移到行首
+[CTRL]E           光标移到行末
+[CTRL]K           清除至当前行尾
+[CTRL]V           treat following control character as normal character
+[Option]方向键     以单词为单位移动
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;user&#34;&gt;User&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;sudo adduser USERNAME 
+# 添加root权限
+sudo usermod -g sudo USERNAME 
+# change password
+passwd
+# delete user
+sudo userdel -r USERNAME
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;infomation&#34;&gt;Infomation&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;who
+who am i
+whoami
+env
+alias
+man
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;file-maintenance&#34;&gt;File Maintenance&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# r = 4, w = 2, x = 1
+chmod
+umask # set in startup files for the account to masks out permissions, umask numbers added to desired permission number equals 7.
+chgrp # change the group of the file
+chown # change the owner of a file 
+
+# 查看当前目录文件大小
+# (1)列出当前目录下每个文件的大小，同时也会给出当前目录下所有文件大小总和
+ls -lht
+
+# (2)列出当前文件夹下所有文件对应的大小
+du -sh PATH
+
+# 删除文件中的空行
+cat YOUR_FILE | sed -e &#39;/^$/d&#39;
+
+# conditions
+-r return true (1) if it exists and is readable, otherwise return false (0)
+-w true if it exists and is writable
+-x true if it exists and is executable
+-f true if it exists and is a regular file (or for csh, exists and is not a directory)
+-d true if it exists and is a directory
+-e true if the file exists
+-o true if the user owns the file
+-z true if the file has zero length (empty)
+
+# 对Exfat文件系统支持
+sudo apt install exfat-utils
+
+# 打包
+tar -cvf  YOUR_FILE.tar YOUR_FILE # 仅打包 
+tar -zcvf YOUR_FILE.tar.gz YOUR_FILE # gzip压缩
+tar -jcvf YOUR_FILE.tar.bz2 YOUR_FILE # bzip2压缩
+
+# 查看文件
+tar -tvf YOUR_FILE.tar
+tar -ztvf YOUR_FILE.tar.gz
+tar -jtvf YOUR_FILE.tar.bz2
+
+# 解包
+tar -xvf YOUR_FILE.tar
+tar -zxvf YOUR_FILE.tar.gz
+tar -jxvf YOUR_FILE.tar.bz2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;find-and-search&#34;&gt;find and search&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# 查找24小时内修改过的文件
+find ./ -mtime 0 
+# 查找当前目录及子目录中的.c文件
+find . -name &amp;quot;*.c&amp;quot;
+# 查找当前目录符合条件的文件内容
+grep -nHR &amp;quot;STRING&amp;quot; .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;process&#34;&gt;process&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;ps
+ps -ef
+kill -9 PID
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;bash-executes-order&#34;&gt;Bash executes order&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# login shell executes order:  
+/etc/profile
+~/.bash/_profile
+~/.bash_login
+~/.profile
+
+# non-login shell executes:  
+/etc/bashrc
+~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;history
+!598 # 执行第598条命令
+sudo !! # 以root执行上一条命令
+history  | awk &#39;{a[$2]++}END{for(i in a){print a[i] &amp;quot; &amp;quot; i}}&#39; | sort -rn | head # 统计情况
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;cpu&#34;&gt;CPU&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# 总核数 = 物理CPU个数 x 每颗物理CPU的核数 
+# 总逻辑CPU数 = 物理CPU个数 x 每颗物理CPU的核数 x 超线程数
+
+# 物理CPU个数
+cat /proc/cpuinfo| grep &amp;quot;physical id&amp;quot;| sort| uniq| wc -l
+
+# 每个物理CPU中core的个数(即核数)
+cat /proc/cpuinfo| grep &amp;quot;cpu cores&amp;quot;| uniq
+
+# 逻辑CPU的个数
+cat /proc/cpuinfo| grep &amp;quot;processor&amp;quot;| wc -l
+
+# CPU型号
+cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+
+# CPU的负载，返回1、5、15分钟内的负载情况
+uptime 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;内存&#34;&gt;内存&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;cat /proc/meminfo
+free
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;磁盘&#34;&gt;磁盘&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 硬盘信息
+fdisk -l 
+# 查看磁盘IO的性能
+iostat -x 10
+# 挂载硬盘到某个文件夹
+sudo mount /dev/sda YOUR_PATH 
+# 查看硬盘挂载信息
+df -h
+# 取消挂载
+sudo umount YOUR_PATH 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;删除ppa源&#34;&gt;删除ppa源&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd /etc/apt/sources.list.d/ # 找到关于源的文件,删除即可
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;查看中文字体&#34;&gt;查看中文字体&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;fc-list:lang=zh-cn
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;io-redirection-and-piping&#34;&gt;I/O Redirection and Piping&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# stdin: 0, stdout: 1, stderr: 2
+|                      管道
+&amp;gt;                      stdout重定向到file
+&amp;gt;&amp;gt;                     stdout重定向到file(不覆盖)
+&amp;lt;                      stdin从file重定向
+tee                    复制stdout
+&amp;gt;/dev/null             直接扔掉stdout
+1&amp;gt;FILE_1 2&amp;gt;FILE_2        stdout to FILE_1, stderr to FILE_2
+&amp;gt;FILE 2&amp;gt;&amp;amp;1             redirect stdout and stderr to FILE 
+2&amp;gt;&amp;amp;1 | tee             将stderr和stdout输出到文件的同时在屏幕上输出
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;开机进入命令行&#34;&gt;开机进入命令行&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo systemctl set-default multi.user # 进入命令行
+sudo systemctl set-default graph...   # 进入图形界面
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;ubuntu设置窗口键在左侧&#34;&gt;Ubuntu设置窗口键在左侧&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;gsettings set org.gnome.desktop.wm.preferences button-layout &#39;close,minimize,maximize:&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;生成强密码&#34;&gt;生成强密码&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;openssl rand -base64 NUMBER
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;terminal-output-to-clip&#34;&gt;terminal output to clip&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows: &lt;code&gt;clip&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;MacOS: &lt;code&gt;pbcopy&lt;/code&gt;, &lt;code&gt;pbpaste&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Linux: &lt;code&gt;xsel&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ssh&#34;&gt;ssh&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 安装 SSH(Secure Shell) 服务以提供远程管理服务
+sudo apt install openssh-server
+
+# 启动ssh服务
+/etc/init.d/ssh start
+sudo service ssh start
+
+# 检测是否已启动
+ps -e | grep ssh
+
+## SSH远程登录
+ssh username@IP_ADDR
+
+# 将文件/文件夹从远程机下载到本地(scp) 
+scp -r username@IP_ADDR:/home/username/remotefile.txt .
+
+# 设置公钥登录
+# (1)复制本地的公钥
+cat ~/.ssh/id_rsa.pub
+# (2)在远程机器上写入复制的公钥
+vim ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+# (3)远程机器授权公钥登录
+sudo echo &amp;quot;PubkeyAuthentication yes&amp;quot; &amp;gt;&amp;gt; /etc/ssh/sshd_config
+# (4)重启ssh服务
+sudo systemctl restart sshd.service
+# Or
+ssh-copy-id -i Public_Key_File Remote_Server
+
+# .ssh/config example
+Host {HOSTNAME}
+  HostName {IP}
+  User {Username}
+
+ssh HOSTNAME
+
+# SSH for data transfer
+ssh -qTfnN -D PORT SERVER 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/QSCTech/2020-Autumn-Round-Two/tree/master/problem-set-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A good introduction to Linux&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenMP</title>
+      <link>http://lucas-wye.github.io/post/openmp/</link>
+      <pubDate>Fri, 04 Oct 2019 15:03:25 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/openmp/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;OpenMP是由OpenMP Architecture Review Board牵头提出的，并已被广泛接受的，用于共享内存并行系统的多线程程序设计的一套编译指令 (Compiler Directive)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;See detail at 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/OpenMP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;openmp-programming-example&#34;&gt;OpenMP Programming Example&lt;/h2&gt;
+&lt;p&gt;Here is a C program using OpenMP.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-C&#34;&gt;#include&amp;lt;stdio.h&amp;gt;
+#include&amp;lt;omp.h&amp;gt;
+
+int main(void) {
+    const int n = 10;
+    int arr[n];
+
+    #pragma omp parallel for  
+    for(int i = 0;i &amp;lt; n;i++) {
+        arr[i] = i;
+        printf(&amp;quot;%d\n&amp;quot;,i);
+    }
+
+    for(int j = 0;j &amp;lt; n;j++){
+        printf(&amp;quot;%d\n&amp;quot;,arr[j]);
+    }
+
+    return 0;      
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more-example&#34;&gt;More Example&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/51173703&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenMP并行开发（C++） &lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://blog.csdn.net/drzhouweiming/article/details/1175848&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenMP并行程序设计（二）&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
