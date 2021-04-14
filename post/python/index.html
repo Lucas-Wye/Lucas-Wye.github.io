@@ -650,6 +650,31 @@ c.NotebookApp.password = u'sha:...' # 密码的哈希值
 c.NotebookApp.open_browser = False 
 c.NotebookApp.port = 8888 # 自行指定一个端口
 </code></pre>
+<h3 id="pypy">PyPy</h3>
+<p><a href="https://www.pypy.org">https://www.pypy.org</a><br>
+<a href="https://github.com/rvianello/conda-pypy">https://github.com/rvianello/conda-pypy</a></p>
+<h3 id="cython">Cython</h3>
+<p><a href="https://cython.org">https://cython.org</a></p>
+<h3 id="镜像源">镜像源</h3>
+<p><code>cat ~/.condarc</code></p>
+<pre><code>channels:
+ - defaults
+ - ric/channel/pypy
+
+show_channel_urls: true
+
+default_channels:
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+
+custom_channels:
+ conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+ pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+envs_dirs:
+ - ~/pypy-envs
+</code></pre>
 <h2 id="pip">pip</h2>
 <pre><code class="language-sh"># 导入依赖包                                
 pip install -r requirements.txt 
@@ -662,8 +687,13 @@ pip freeze &gt; requirements.txt
 pip download -d [DIR] -r requirements.txt 
 # 离线安装
 pip install --no-index --find-links=[DIR] -r requirements.txt  
-# 更改镜像源
-echo &quot;[global]\nindex-url = http://mirrors.aliyun.com/pypi/simple/\n[install]\ntrusted-host = mirrors.aliyun.com&quot; &gt; ~/.pip/pip.conf 
+</code></pre>
+<h3 id="镜像源-1">镜像源</h3>
+<p><code>cat ~/.pip/pip.conf</code></p>
+<pre><code>[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/
+[install]
+trusted-host = mirrors.aliyun.com
 </code></pre>
 <h2 id="more">More</h2>
 <p>

@@ -704,6 +704,13 @@ pick THIRD_COMMIT_ID add third commit
 squash THIRD_COMMIT_ID add third commit
 </code></pre>
 <p>DONE.</p>
+<h3 id="git-server">Git Server</h3>
+<pre><code>sudo adduser git
+su git
+cd
+# add ssh key
+git init --bare [PROJECT_NAME].git
+</code></pre>
 <h2 id="more">More</h2>
 <p>
 <a href="https://www.runoob.com/git/git-tutorial.html" target="_blank" rel="noopener">git教程</a></p>

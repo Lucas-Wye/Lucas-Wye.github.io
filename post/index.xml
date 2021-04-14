@@ -588,6 +588,31 @@ c.NotebookApp.password = u&#39;sha:...&#39; # 密码的哈希值
 c.NotebookApp.open_browser = False 
 c.NotebookApp.port = 8888 # 自行指定一个端口
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;pypy&#34;&gt;PyPy&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pypy.org&#34;&gt;https://www.pypy.org&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/rvianello/conda-pypy&#34;&gt;https://github.com/rvianello/conda-pypy&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cython&#34;&gt;Cython&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cython.org&#34;&gt;https://cython.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;镜像源&#34;&gt;镜像源&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cat ~/.condarc&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;channels:
+ - defaults
+ - ric/channel/pypy
+
+show_channel_urls: true
+
+default_channels:
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+
+custom_channels:
+ conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+ pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+envs_dirs:
+ - ~/pypy-envs
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;pip&#34;&gt;pip&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 导入依赖包                                
 pip install -r requirements.txt 
@@ -600,8 +625,13 @@ pip freeze &amp;gt; requirements.txt
 pip download -d [DIR] -r requirements.txt 
 # 离线安装
 pip install --no-index --find-links=[DIR] -r requirements.txt  
-# 更改镜像源
-echo &amp;quot;[global]\nindex-url = http://mirrors.aliyun.com/pypi/simple/\n[install]\ntrusted-host = mirrors.aliyun.com&amp;quot; &amp;gt; ~/.pip/pip.conf 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;镜像源-1&#34;&gt;镜像源&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cat ~/.pip/pip.conf&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/
+[install]
+trusted-host = mirrors.aliyun.com
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
 &lt;p&gt;
@@ -1385,6 +1415,13 @@ pick THIRD_COMMIT_ID add third commit
 squash THIRD_COMMIT_ID add third commit
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;DONE.&lt;/p&gt;
+&lt;h3 id=&#34;git-server&#34;&gt;Git Server&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo adduser git
+su git
+cd
+# add ssh key
+git init --bare [PROJECT_NAME].git
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.runoob.com/git/git-tutorial.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git教程&lt;/a&gt;&lt;/p&gt;
