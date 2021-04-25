@@ -349,12 +349,14 @@ export https_proxy=http://127.0.0.1:PORT
 set https_proxy=&amp;quot;http://127.0.0.1:PORT&amp;quot;
 set http_proxy=&amp;quot;http://127.0.0.1:PORT&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;nmcli&#34;&gt;nmcli&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# connect to l2tp
+nmcli con up {L2TP_VPN_NAME} --ask
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;windows-vpn连接&#34;&gt;Windows VPN连接&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;rasdial VPN_NAME USERNAME PASSWORD
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.qingtingip.com/h_189554.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nmcli用法&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1577,8 +1579,15 @@ sudo umount YOUR_PATH
 &lt;h2 id=&#34;删除ppa源&#34;&gt;删除ppa源&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd /etc/apt/sources.list.d/ # 找到关于源的文件,删除即可
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;查看中文字体&#34;&gt;查看中文字体&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;fc-list:lang=zh-cn
+&lt;h2 id=&#34;字体&#34;&gt;字体&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 安装Windows字体
+sudo cp [Windows-Fonts] /usr/share/fonts/Windows-Fonts
+sudo mkfontscale
+sudo mkfontdir
+fc-cache
+
+# 查看中文字体
+fc-list:lang=zh-cn
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;io-redirection-and-piping&#34;&gt;I/O Redirection and Piping&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;# stdin: 0, stdout: 1, stderr: 2
@@ -1647,6 +1656,16 @@ ssh HOSTNAME
 
 # SSH for data transfer
 ssh -qTfnN -D PORT SERVER 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;mac-os-theme-for-ubuntu&#34;&gt;Mac OS Theme for Ubuntu&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt install gnome-tweak-tool gnome-shell-extensions
+
+git clone --depth=1 https://github.com/vinceliuice/Sierra-gtk-theme
+cd Sierra-gtk-theme
+./install.sh
+
+git clone --depth=1 https://github.com/USBA/Cupertino-iCons
+sudo cp -r Cupertino-iCons /usr/share/icons
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
 &lt;p&gt;

@@ -749,8 +749,15 @@ sudo umount YOUR_PATH
 <h2 id="删除ppa源">删除ppa源</h2>
 <pre><code class="language-sh">cd /etc/apt/sources.list.d/ # 找到关于源的文件,删除即可
 </code></pre>
-<h2 id="查看中文字体">查看中文字体</h2>
-<pre><code class="language-sh">fc-list:lang=zh-cn
+<h2 id="字体">字体</h2>
+<pre><code class="language-sh"># 安装Windows字体
+sudo cp [Windows-Fonts] /usr/share/fonts/Windows-Fonts
+sudo mkfontscale
+sudo mkfontdir
+fc-cache
+
+# 查看中文字体
+fc-list:lang=zh-cn
 </code></pre>
 <h2 id="io-redirection-and-piping">I/O Redirection and Piping</h2>
 <pre><code># stdin: 0, stdout: 1, stderr: 2
@@ -819,6 +826,16 @@ ssh HOSTNAME
 
 # SSH for data transfer
 ssh -qTfnN -D PORT SERVER 
+</code></pre>
+<h2 id="mac-os-theme-for-ubuntu">Mac OS Theme for Ubuntu</h2>
+<pre><code class="language-sh">sudo apt install gnome-tweak-tool gnome-shell-extensions
+
+git clone --depth=1 https://github.com/vinceliuice/Sierra-gtk-theme
+cd Sierra-gtk-theme
+./install.sh
+
+git clone --depth=1 https://github.com/USBA/Cupertino-iCons
+sudo cp -r Cupertino-iCons /usr/share/icons
 </code></pre>
 <h2 id="more">More</h2>
 <p>
