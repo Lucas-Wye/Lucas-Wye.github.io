@@ -316,7 +316,12 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;配置镜像源&#34;&gt;配置镜像源&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://mirror.tuna.tsinghua.edu.cn/help/elpa/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;清华源&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.spacemacs.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spacemas&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
