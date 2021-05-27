@@ -5,12 +5,80 @@
     <link>http://lucas-wye.github.io/post/</link>
       <atom:link href="http://lucas-wye.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jan 2021 09:56:53 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 May 2021 20:21:34 +0800</lastBuildDate>
     <image>
       <url>http://lucas-wye.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>http://lucas-wye.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Rime</title>
+      <link>http://lucas-wye.github.io/post/rime/</link>
+      <pubDate>Thu, 27 May 2021 20:21:34 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/rime/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;RIME／中州韻輸入法引擎，是一個跨平臺的輸入法算法框架。&lt;/li&gt;
+&lt;li&gt;基於這一框架，Rime 開發者與其他開源社區的參與者在 Windows、macOS、Linux、Android 等平臺上創造了不同的輸入法前端實現。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-configurationhttpsgithubcomlucas-wyerctreemasterrime&#34;&gt;
+&lt;a href=&#34;https://github.com/Lucas-Wye/rc/tree/master/rime&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;My configuration&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ubuntu: ibus + ibus-rime&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt install -y ibus-rime librime-data-double-pinyin
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Android: 
+&lt;a href=&#34;https://github.com/osfans/trime&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trime&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;windows配置小鹤双拼httpsflypycom&#34;&gt;Windows配置
+&lt;a href=&#34;https://flypy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;小鹤双拼&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;输入法设置-&amp;gt;常规-&amp;gt;添加方案，添加内容如下图
+&lt;img src=&#34;https://raw.githubusercontent.com/Lucas-Wye/rc/master/rime/Windows-Flypy.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zotero</title>
+      <link>http://lucas-wye.github.io/post/zotero/</link>
+      <pubDate>Sat, 08 May 2021 15:39:17 +0800</pubDate>
+      <guid>http://lucas-wye.github.io/post/zotero/</guid>
+      <description>&lt;p&gt;Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Requirements&lt;/th&gt;
+&lt;th&gt;Operations&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;查看文献条目所属的分类&lt;/td&gt;
+&lt;td&gt;选中该条目后按住Ctrl/Option/Alt，该文献所在的文件夹就会高亮为黄色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;在文献集（Collections）之间移动文献&lt;/td&gt;
+&lt;td&gt;选中待移动的文献，然后根据你的操作系统按下相应快捷键， macOS：&lt;code&gt;Cmd&lt;/code&gt; Windows/Linux：&lt;code&gt;Shift&lt;/code&gt;，将该文献拖拽到其他文献集即可&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;快速查看近期添加的文献&lt;/td&gt;
+&lt;td&gt;右键单击&lt;strong&gt;My Library&lt;/strong&gt;，选择&lt;strong&gt;New Saved Search&lt;/strong&gt;，进行具体的设置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;plug&#34;&gt;Plug&lt;/h2&gt;
+&lt;h3 id=&#34;better-bibtexhttpsretorquerezotero-better-bibtex&#34;&gt;
+&lt;a href=&#34;https://retorque.re/zotero-better-bibtex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Better Bibtex&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://retorque.re/zotero-better-bibtex/citation-keys/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;设置格式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;Zotero Preferences&lt;/code&gt;的&lt;code&gt;Better Bibtex&lt;/code&gt;的&lt;code&gt;Tab&lt;/code&gt;中修改&lt;code&gt;citation key format&lt;/code&gt;为&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[auth:lower][year][veryshorttitle:lower]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero Website&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Emacs</title>
@@ -495,17 +563,19 @@ sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache -f -v
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Algorithm2e&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;http://github.com/Lucas-Wye/Latex_template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX模板&lt;/a&gt;&lt;br&gt;
 
 &lt;a href=&#34;http://latexstudio.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX开源小屋&lt;/a&gt;&lt;br&gt;
 
-&lt;a href=&#34;https://github.com/Lucas-Wye/Share/tree/master/LaTeX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX Introduction&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://tex.stackexchange.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stackexchange&lt;/a&gt;&lt;br&gt;
 
-&lt;a href=&#34;https://liam.page/texlive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TeX Live下载及安装说明&lt;/a&gt;&lt;br&gt;
-
-&lt;a href=&#34;https://liam.page/2014/09/08/latex-introduction/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;一份其实很短的 LaTeX 入门文档&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://github.com/Lucas-Wye/Share/tree/master/LaTeX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX Introduction&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
