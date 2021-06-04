@@ -71,9 +71,17 @@
 &lt;li&gt;
 &lt;a href=&#34;https://retorque.re/zotero-better-bibtex/citation-keys/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;设置格式&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;Zotero Preferences&lt;/code&gt;的&lt;code&gt;Better Bibtex&lt;/code&gt;的&lt;code&gt;Tab&lt;/code&gt;中修改&lt;code&gt;citation key format&lt;/code&gt;为&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Zotero Preferences&lt;/code&gt; -&amp;gt; &lt;code&gt;Better Bibtex&lt;/code&gt; -&amp;gt; &lt;code&gt;Citation Keys&lt;/code&gt;中，修改&lt;code&gt;citation key format&lt;/code&gt;为&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;[auth:lower][year][veryshorttitle:lower]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;zotfilehttpzotfilecom&#34;&gt;
+&lt;a href=&#34;http://zotfile.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZotFile&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修改附件的命名格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;Zotero Tools&lt;/code&gt; -&amp;gt; &lt;code&gt;ZotFile Preferences&lt;/code&gt; -&amp;gt; &lt;code&gt;Renaming&lt;/code&gt;中，修改格式为&lt;code&gt;{%y_}{%t_}{%a}&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;zotero-scholar-citationshttpsgithubcombeloglazovzotero-scholar-citations&#34;&gt;
+&lt;a href=&#34;https://github.com/beloglazov/zotero-scholar-citations&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero Scholar Citations&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero Website&lt;/a&gt;&lt;/p&gt;
