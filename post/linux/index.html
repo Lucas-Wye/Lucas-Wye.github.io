@@ -688,6 +688,8 @@ find ./ -mtime 0
 find . -name &quot;*.c&quot;
 # 查找当前目录符合条件的文件内容
 grep -nHR &quot;STRING&quot; .
+# grep不匹配二进制文件
+grep --binary-files=without-match
 </code></pre>
 <h2 id="process">process</h2>
 <pre><code>ps

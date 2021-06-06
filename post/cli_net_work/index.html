@@ -687,6 +687,10 @@ curl -O https://www.example.com/foo/bar.html
 # 通过添加 `-C` 继续对该文件进行下载，已经下载过的文件不会被重新下载
 curl -C -O http://www.gnu.org/software/gettext/manual/gettext.html
 </code></pre>
+<p>(9)使用wget或者curl下载github release文件</p>
+<pre><code>curl -LJO GITHUB_RELEASE_LINK
+wget --no-check-certificate --content-disposition GITHUB_RELEASE_LINK
+</code></pre>
 <h3 id="terminal设置代理">terminal设置代理</h3>
 <pre><code class="language-sh"># MacOS &amp; Linux
 export http_proxy=http://127.0.0.1:PORT
