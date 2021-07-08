@@ -20,7 +20,7 @@
   
   
 
-  <meta name="author" content="ZW YE">
+  <meta name="author" content="Lucas Z.W. YE">
 
   
   
@@ -285,7 +285,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "ZW YE"
+    "name": "Lucas Z.W. YE"
   },
   
   "publisher": {
@@ -569,7 +569,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -747,6 +747,34 @@ sudo mount /dev/sda YOUR_PATH
 df -h
 # 取消挂载
 sudo umount YOUR_PATH 
+</code></pre>
+<h2 id="ubuntu开机自动挂载windows硬盘分区">Ubuntu开机自动挂载Windows硬盘分区</h2>
+<pre><code>查看分区信息
+sudo fdisk -l
+查看磁盘类型
+sudo blkid
+</code></pre>
+<p>输出</p>
+<pre><code>Device         Boot     Start       End   Sectors  Size Id Type
+/dev/nvme0n1p1 *         2048   1187839   1185792  579M  7 HPFS/NTFS/exFAT
+/dev/nvme0n1p2        1187840 210903039 209715200  100G  7 HPFS/NTFS/exFAT
+/dev/nvme0n1p3      210903040 420618239 209715200  100G  7 HPFS/NTFS/exFAT
+/dev/nvme0n1p4      420620286 500117503  79497218 37.9G  5 Extended
+/dev/nvme0n1p5      420620288 421595135    974848  476M 83 Linux
+/dev/nvme0n1p6      421597184 450891775  29294592   14G 83 Linux
+/dev/nvme0n1p7      450893824 500117503  49223680 23.5G 83 Linux
+</code></pre>
+<pre><code>修改配置文件
+sudo vim /etc/fstab
+
+# for Windows 10 C:/
+/dev/nvme0n1p2 /home/usrname/Windows_Disks/C ntfs defaults 0 0
+
+# for Windows 10 D:/
+/dev/nvme0n1p3 /home/usrname/Windows_Disks/D ntfs defaults 0 0
+
+挂载新添加的分区
+sudo mount -a
 </code></pre>
 <h2 id="删除ppa源">删除ppa源</h2>
 <pre><code class="language-sh">cd /etc/apt/sources.list.d/ # 找到关于源的文件,删除即可
@@ -967,13 +995,13 @@ sudo cp -r Cupertino-iCons /usr/share/icons
     <div class="media author-card content-widget-hr">
       
         
-        <img class="avatar mr-3 avatar-circle" src="/author/zw-ye/avatar_hu14ff391402ceffb56b61635411dafd0f_77840_270x270_fill_q90_lanczos_center.jpg" alt="ZW YE">
+        <img class="avatar mr-3 avatar-circle" src="/author/lucas-z.w.-ye/avatar_hu14ff391402ceffb56b61635411dafd0f_77840_270x270_fill_q90_lanczos_center.jpg" alt="Lucas Z.W. YE">
       
 
       <div class="media-body">
-        <h5 class="card-title"><a href="http://lucas-wye.github.io/">ZW YE</a></h5>
-        <h6 class="card-subtitle">Graduate Student</h6>
-        <p class="card-text">Ph.D of ZJU, mainly working on Cryptography, Integration Circuits, Secure RISC-V Processor Design.</p>
+        <h5 class="card-title"><a href="http://lucas-wye.github.io/">Lucas Z.W. YE</a></h5>
+        <h6 class="card-subtitle">Ph.D. Student</h6>
+        <p class="card-text">Ph.D. of ZJU and CityU, mainly working on Cryptographic Hardware, Hardware Security, Secure RISC-V Processor Design.</p>
         <ul class="network-icon" aria-hidden="true">
   
     
